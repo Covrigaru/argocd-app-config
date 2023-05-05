@@ -16,7 +16,9 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 
 # you can change and delete init password
 
-#links
+# links:
+
+
 Config repo: https://gitlab.com/nanuchi/argocd-app-config
 
 
