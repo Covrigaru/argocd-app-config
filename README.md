@@ -1,5 +1,5 @@
 # argocd-app-config
-ArgoCd POC
+ArgoCd POC Orignaluy cloned from: https://gitlab.com/nanuchi/argocd-app-config/-/tree/main?ref_type=heads
 
 
 
@@ -16,3 +16,17 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 
 # you can change and delete init password
 
+#links
+Config repo: https://gitlab.com/nanuchi/argocd-app-config
+
+
+Docker repo: https://hub.docker.com/repository/docker/nanajanashia/argocd-app
+
+
+Install ArgoCD: https://argo-cd.readthedocs.io/en/stable/getting_started/#1-install-argo-cd
+
+
+Login to ArgoCD: https://argo-cd.readthedocs.io/en/stable/getting_started/#4-login-using-the-cli
+
+
+ArgoCD Configuration: https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/
